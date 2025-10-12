@@ -8,21 +8,31 @@ import { WorkSection } from "@/components/sections/WorkSection";
 export default function Home() {
   return (
     <MainLayout>
-      <div className="space-y-12 p-6 max-w-5xl">
-        {/* About Section */}
-        <AboutSection />
+      <div className="space-y-12 p-6 max-w-5xl animate-in fade-in duration-500">
+        {/* Home/About Section */}
+        <div id="home" className="scroll-mt-20">
+          <AboutSection />
+        </div>
 
         {/* Skills Section */}
-        <SkillsSection />
+        <div className="scroll-mt-20">
+          <SkillsSection />
+        </div>
 
         {/* Work Experience Section */}
-        <WorkSection />
+        <div id="work" className="scroll-mt-20">
+          <WorkSection />
+        </div>
 
         {/* Projects Section */}
-        <ProjectsSection />
+        <div id="projects" className="scroll-mt-20">
+          <ProjectsSection />
+        </div>
 
         {/* Contact Section */}
-        <ContactSection />
+        <div id="contact" className="scroll-mt-20">
+          <ContactSection />
+        </div>
       </div>
     </MainLayout>
   );

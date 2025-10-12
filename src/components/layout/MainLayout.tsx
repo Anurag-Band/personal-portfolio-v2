@@ -23,9 +23,7 @@ export function MainLayout({ children }: MainLayoutProps) {
           {/* Main Content Area */}
           <div className="flex flex-col">
             {/* Scrollable Content Area */}
-            <main className="flex-1">
-              <div className="px-4 py-8 lg:px-8 lg:py-12">{children}</div>
-            </main>
+            <main className="flex-1 overflow-x-hidden">{children}</main>
           </div>
         </div>
       </div>

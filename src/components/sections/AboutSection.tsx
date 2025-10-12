@@ -4,7 +4,7 @@ import { profileData } from "@/data/profile";
 
 export function AboutSection() {
   return (
-    <section id="about" className="space-y-6">
+    <section className="space-y-6">
       {/* Headline */}
       <h1 className="text-3xl md:text-4xl font-bold leading-tight">
         {profileData.headline}

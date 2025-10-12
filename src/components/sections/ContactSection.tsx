@@ -26,7 +26,7 @@ export function ContactSection() {
   };
 
   return (
-    <section id="contact" className="space-y-6 pb-12">
+    <section className="space-y-6 pb-12">
       <h2 className="text-2xl font-bold">Get In Touch</h2>
 
       <Card className="max-w-2xl hover:shadow-md transition-shadow">

@@ -8,7 +8,7 @@ import { workData } from "@/data/work";
 
 export function WorkSection() {
   return (
-    <section id="work" className="space-y-6">
+    <section className="space-y-6">
       <h2 className="text-2xl font-bold">Work Experience</h2>
 
       <div className="space-y-8">

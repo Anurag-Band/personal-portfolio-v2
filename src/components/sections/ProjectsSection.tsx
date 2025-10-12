@@ -9,7 +9,7 @@ import { projectsData } from "@/data/projects";
 
 export function ProjectsSection() {
   return (
-    <section id="projects" className="space-y-6">
+    <section className="space-y-6">
       <h2 className="text-2xl font-bold">Notable Projects</h2>
 
       <div className="space-y-6">

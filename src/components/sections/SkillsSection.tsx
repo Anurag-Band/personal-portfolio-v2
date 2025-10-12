@@ -5,7 +5,7 @@ import { skillsData } from "@/data/skills";
 
 export function SkillsSection() {
   return (
-    <section id="skills" className="space-y-6">
+    <section className="space-y-6">
       {skillsData.map((category) => (
         <div key={category.title} className="space-y-3">
           {/* Category Icon and Title */}
