@@ -10,8 +10,8 @@ import { Sidebar } from "./Sidebar";
 
 const navLinks = [
   { name: "Home", href: "#home", icon: Home },
-  { name: "Work", href: "#work", icon: Briefcase },
   { name: "Projects", href: "#projects", icon: FolderOpen },
+  { name: "Work", href: "#work", icon: Briefcase },
   { name: "Contact", href: "#contact", icon: Mail },
 ];
 
@@ -20,9 +20,9 @@ export function TopNav() {
 
   return (
     <>
-      <nav className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="flex h-16 items-center justify-between px-4 lg:px-8">
-          {/* Left - Username */}
+      <nav className="sticky top-0 z-50 border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+        <div className="mx-auto flex h-16 max-w-screen-lg items-center justify-between px-4 lg:px-8">
+          {/* Left - Username with border and light background */}
           <div className="flex items-center gap-4">
             <Button
               variant="ghost"
@@ -33,24 +33,27 @@ export function TopNav() {
               <Menu className="h-5 w-5" />
               <span className="sr-only">Toggle menu</span>
             </Button>
-            <Link href="/" className="text-lg font-semibold hover:opacity-80">
+            <Link
+              href="/"
+              className="text-sm font-medium hover:opacity-80 border rounded-md px-3 py-1.5 bg-muted/50"
+            >
               {profileData.username}
             </Link>
           </div>
 
           {/* Right - Navigation Links + Theme Toggle */}
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-2">
             {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center gap-1">
+            <div className="hidden md:flex items-center gap-2">
               {navLinks.map((link) => {
                 const Icon = link.icon;
                 return (
                   <Button
                     key={link.name}
-                    variant="ghost"
+                    variant="outline"
                     size="sm"
                     asChild
-                    className="gap-2"
+                    className="gap-2 bg-muted/50"
                   >
                     <Link href={link.href}>
                       <Icon className="h-4 w-4" />
