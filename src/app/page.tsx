@@ -1,8 +1,19 @@
+import { MainLayout } from "@/components/layout/MainLayout";
+
 export default function Home() {
   return (
-    <div className="flex items-center justify-center flex-col min-h-screen">
-      <h1 className="">Anurag Band...</h1>
-      <h2>See my work</h2>
-    </div>
+    <MainLayout>
+      <div className="space-y-24">
+        {/* Sections will be added in Phase 4 */}
+        <section id="home" className="min-h-[60vh] flex items-center">
+          <div>
+            <h1 className="text-4xl font-bold">Welcome</h1>
+            <p className="text-muted-foreground mt-4">
+              Layout components are ready! Sections coming next.
+            </p>
+          </div>
+        </section>
+      </div>
+    </MainLayout>
   );
 }
