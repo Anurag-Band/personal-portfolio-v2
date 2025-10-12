@@ -15,7 +15,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Anurag Band | Full Stack Developer",
-  description: "Portfolio of Anurag Band - Full Stack Software Engineer specializing in AI, Web3, and modern web technologies",
+  description:
+    "Portfolio of Anurag Band - Full Stack Software Engineer specializing in AI, Web3, and modern web technologies",
 };
 
 export default function RootLayout({
