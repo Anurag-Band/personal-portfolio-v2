@@ -1,6 +1,6 @@
 "use client";
 
-import { Calendar, FileText, Github, Linkedin, Twitter } from "lucide-react";
+import { Calendar, FileText, Github, Linkedin, Twitter, ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
@@ -26,12 +26,11 @@ export function Sidebar() {
     <div className="flex h-[calc(100vh-4rem)] items-center justify-center p-8">
       <Card className="w-full max-w-sm p-8">
         <div className="flex flex-col items-center space-y-6">
-          {/* Profile Image with gradient ring */}
+          {/* Profile Image */}
           <div className="relative">
-            <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-primary/20 via-primary/10 to-primary/20 blur-sm" />
-            <Avatar className="h-32 w-32 border-2 border-background relative">
+            <Avatar className="h-32 w-32 border-2 border-border">
               <AvatarImage src={profileData.image} alt={profileData.name} />
-              <AvatarFallback className="text-2xl font-semibold">
+              <AvatarFallback className="text-3xl font-bold bg-secondary">
                 {profileData.name
                   .split(" ")
                   .map((n) => n[0])
@@ -40,10 +39,10 @@ export function Sidebar() {
             </Avatar>
           </div>
 
-          {/* Name */}
+          {/* Name & Username */}
           <div className="text-center space-y-1">
             <h2 className="text-xl font-bold">{profileData.name}</h2>
-            <p className="text-sm text-muted-foreground">{profileData.username}</p>
+            <p className="text-sm text-muted-foreground font-medium">{profileData.username}</p>
           </div>
 
           {/* Social Links */}
@@ -55,7 +54,7 @@ export function Sidebar() {
                 <Button
                   key={link.name}
                   variant="outline"
-                  className="w-full justify-start gap-3 h-11"
+                  className="w-full justify-between gap-3 h-12 group"
                   asChild
                 >
                   <Link
@@ -67,8 +66,11 @@ export function Sidebar() {
                         : undefined
                     }
                   >
-                    {Icon && <Icon className="h-4 w-4" />}
-                    {link.name}
+                    <span className="flex items-center gap-3">
+                      {Icon && <Icon className="h-4 w-4 text-muted-foreground group-hover:text-foreground transition-colors" />}
+                      <span>{link.name}</span>
+                    </span>
+                    <ArrowUpRight className="h-4 w-4 text-muted-foreground/50 group-hover:text-foreground transition-colors" />
                   </Link>
                 </Button>
               );
