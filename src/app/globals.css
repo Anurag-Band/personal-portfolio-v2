@@ -79,9 +79,11 @@
 
 .dark {
   /* Dark mode - Deep blacks and grays */
-  --background: #0a0a0a;
+  --background: #050505;
   --foreground: #fafafa;
-  --card: #141414;
+  --card: #0a0a0a;
+  --grid-pattern: radial-gradient(circle, rgba(255,255,255,0.05) 1px, transparent 1px);
+  --grid-size: 24px 24px;
   --card-foreground: #fafafa;
   --popover: #141414;
   --popover-foreground: #fafafa;
@@ -123,6 +125,8 @@
 
   body {
     @apply bg-background text-foreground antialiased;
+    background-image: var(--grid-pattern);
+    background-size: var(--grid-size);
   }
 
   /* Custom scrollbar styles */
