@@ -4,15 +4,20 @@ export const profileData: Profile = {
   name: "Anurag Band",
   username: "@theanuuurag10",
   image: "/profile-image.jpg",
-  role: "Software Developer | Full Stack + AI",
-  headline: "I turn your digital vision into reality",
+  role: "Full-Stack Developer | AI Orchestration | Distributed Systems",
+  headline: "Building AI-Powered Systems at Scale",
   intro:
-    "👋 Hi, I'm Anurag Band, a skilled Full-Stack Software Engineer with solid experience in building modern, scalable applications. I'm currently expanding my skills in AI to bring smarter, more innovative solutions to the projects I work on.",
+    "Full-Stack Software Developer with 1.5+ years of experience specializing in AI orchestration, high-throughput backend architecture, and distributed systems. Proven expertise in building RAG-driven evaluation engines, headless storefront platforms, and microservices using Golang, React, and Node.js. Skilled in managing 100GB+ data pipelines, Vector Databases, and multi-cloud deployments with a focus on system scalability and performance optimization.",
   location: "Bangalore, India",
-  experience: "2+ years",
-  projectCount: "30+ projects done",
+  experience: "1.5+ years",
+  projectCount: "30+ projects",
   socialLinks: [
     { name: "Github", url: "https://github.com/Anurag-Band", icon: "Github" },
+    {
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/anurag-band",
+      icon: "Linkedin",
+    },
     {
       name: "LeetCode",
       url: "https://leetcode.com/theanuuurag10",

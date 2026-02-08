@@ -9,14 +9,25 @@ export const workData: WorkExperience[] = [
     to: "Present",
     projects: [
       {
-        name: "AI-Driven Grading System",
+        name: "Eddyowl – AI-Powered Handwritten Scripts Grading",
         objective:
-          "Architected and delivered an AI-driven grading system processing 10K+ handwritten scripts/day with 95%+ accuracy, reducing manual evaluation time by 70%",
+          "Engineered a high-throughput AI evaluation engine for handwritten scripts processing 100+ pages/min with 95%+ grading accuracy",
         workDone: [
-          "Led end-to-end frontend development using React, Next.js, TypeScript, improving user onboarding and feature delivery speed by 30%",
-          "Integrated OCR pipelines and LLM-based AI agents, engineering prompts that achieved 90%+ consistent evaluation",
-          "Deployed on AWS, Azure DevOps, and DigitalOcean with Docker + CI/CD, enabling daily releases and improving system reliability",
-          "Collaborated directly with founders to define product roadmap and engineered scalable modules, driving 25% faster client adoption across pilot institutions",
+          "Architected a RAG-based grading system with Vector Databases, cross-referencing CBSE-aligned context pools for high-precision evaluation",
+          "Built multi-agent workflow automating rubric generation and topic-wise diagnostic analytics with historical performance comparison",
+          "Developed bulk grading system with batch image/PDF uploads, significantly reducing manual evaluation time by 70%",
+          "Integrated OCR pipelines and LLM-based AI agents, engineering prompts that achieved 90%+ consistent evaluation across subjects",
+        ],
+      },
+      {
+        name: "Quicshop – Headless Storefront Orchestration System",
+        objective:
+          "Developed a complete headless storefront orchestration platform with modular theme engines and real-time rendering",
+        workDone: [
+          "Architected storefront designer functionality using Golang and GraphQL with modular templates, themes, and section-based customization",
+          "Built low-latency dynamic storefront renderer with Qwik framework, optimizing real-time data hydration by decoupling seller configs from presentation",
+          "Integrated Razorpay dynamic payment routing and custom Email Template Logic Engine for automated scenario-based communications",
+          "Implemented versioned publishing pipeline enabling seamless storefront updates without downtime",
         ],
       },
     ],
@@ -29,12 +40,13 @@ export const workData: WorkExperience[] = [
     to: "May 2023",
     projects: [
       {
-        name: "Visual Analytics Tool",
+        name: "Visual Analytics Platform Migration",
         objective:
-          "Refactored a legacy monolith into a modern React + Node.js microservices architecture, reducing technical debt by 40%",
+          "Architected migration of legacy monolith to React/Node.js microservices model, reducing technical debt by 40%",
         workDone: [
-          "Built a Tableau-like visual analytics tool with 20+ chart templates, enabling insights generation 5x faster",
-          "Developed REST APIs for migrating and processing 100GB+ client data into a centralized data lake",
+          "Built Tableau-like visual analytics tool with 20+ chart templates, enabling insights generation 5x faster",
+          "Developed data pipelines to ingest 100GB+ of client data into centralized data lake",
+          "Engineered administrative orchestration dashboard for workload management and RBAC",
         ],
       },
     ],
@@ -47,12 +59,13 @@ export const workData: WorkExperience[] = [
     to: "March 2023",
     projects: [
       {
-        name: "Blockchain-Based SaaS Credentialing Platform",
+        name: "Blockchain-Powered Credentialing SaaS",
         objective:
-          "Contributed to a blockchain-based SaaS credentialing platform serving 300+ institutions, ensuring secure and verifiable certificates",
+          "Contributed to blockchain-based SaaS credentialing platform serving 300+ institutions with secure certificate issuance",
         workDone: [
-          "Resolved production issues and developed automated email workflows with the MERN stack, improving client response times by 25%",
-          "Redesigned core user journeys with Material UI, boosting usability scores by 15%",
+          "Developed core features including secure issuance logic and custom automated templating engines using MERN stack",
+          "Resolved critical production bottlenecks in certificate validation and data workflows",
+          "Redesigned core user journeys with Material UI, improving usability scores by 15%",
         ],
       },
     ],
