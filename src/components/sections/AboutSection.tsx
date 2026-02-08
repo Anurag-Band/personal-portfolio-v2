@@ -42,11 +42,11 @@ export function AboutSection() {
           ].map((benefit) => (
             <div 
               key={benefit.label}
-              className={`px-3 py-1 rounded-full text-[10px] font-bold border backdrop-blur-sm transition-all duration-300
-                ${benefit.color === 'blue' ? 'bg-blue-500/5 border-blue-500/20 text-blue-400 shadow-sm' : ''}
-                ${benefit.color === 'emerald' ? 'bg-emerald-500/5 border-emerald-500/20 text-emerald-400 shadow-sm' : ''}
-                ${benefit.color === 'orange' ? 'bg-orange-500/5 border-orange-500/20 text-orange-400 shadow-sm' : ''}
-                ${benefit.color === 'purple' ? 'bg-purple-500/5 border-purple-500/20 text-purple-400 shadow-sm' : ''}
+              className={`px-3 py-1 rounded-full text-[10px] font-bold border transition-all duration-300
+                ${benefit.color === 'blue' ? 'bg-blue-50/50 dark:bg-blue-500/5 border-blue-200 dark:border-blue-500/20 text-blue-600 dark:text-blue-400' : ''}
+                ${benefit.color === 'emerald' ? 'bg-emerald-50/50 dark:bg-emerald-500/5 border-emerald-200 dark:border-emerald-500/20 text-emerald-600 dark:text-emerald-400' : ''}
+                ${benefit.color === 'orange' ? 'bg-orange-50/50 dark:bg-orange-500/5 border-orange-200 dark:border-orange-500/20 text-orange-600 dark:text-orange-400' : ''}
+                ${benefit.color === 'purple' ? 'bg-purple-50/50 dark:bg-purple-500/5 border-purple-200 dark:border-purple-500/20 text-purple-600 dark:text-purple-400' : ''}
               `}
             >
               {benefit.label}
@@ -59,7 +59,7 @@ export function AboutSection() {
       <div className="flex flex-wrap items-center gap-4 pt-2">
         <Button 
           size="lg" 
-          className="rounded-full px-6 h-11 bg-white text-black hover:bg-white/90 font-bold transition-all duration-300 shadow-lg group text-sm" 
+          className="rounded-full px-6 h-11 bg-foreground text-background hover:opacity-90 font-bold transition-all duration-300 shadow-lg group text-sm" 
           asChild
         >
           <Link href="#contact">
