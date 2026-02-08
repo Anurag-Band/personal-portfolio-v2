@@ -21,7 +21,7 @@ export function TopNav() {
   return (
     <>
       <nav className="sticky top-0 z-50 border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="mx-auto flex h-16 max-w-screen-lg items-center justify-between px-4 lg:px-8">
+        <div className="mx-auto flex h-16 max-w-screen-xl items-center justify-between px-4 lg:px-8">
           {/* Left - Username with border and light background */}
           <div className="flex items-center gap-4">
             <Button
