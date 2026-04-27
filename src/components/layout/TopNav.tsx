@@ -35,9 +35,9 @@ export function TopNav() {
             </Button>
             <Link
               href="/"
-              className="text-sm font-medium hover:opacity-80 border rounded-md px-3 py-1.5 bg-muted/50"
+              className="flex items-center justify-center w-10 h-10 text-sm font-black border rounded-xl bg-card hover:bg-muted transition-colors shadow-sm"
             >
-              {profileData.username}
+              AB
             </Link>
           </div>
 

@@ -4,7 +4,7 @@ export const skillsData: SkillCategory[] = [
   {
     title: "Languages",
     skills: [
-      { name: "JavaScript (ES6+)", icon: "💛" },
+      { name: "JavaScript", icon: "💛" },
       { name: "TypeScript", icon: "💙" },
       { name: "Golang", icon: "🐹" },
     ],
@@ -25,6 +25,7 @@ export const skillsData: SkillCategory[] = [
     skills: [
       { name: "Node.js", icon: "🟢" },
       { name: "Express.js", icon: "⚡" },
+      { name: "Golang", icon: "🐹" },
       { name: "GraphQL", icon: "🔷" },
       { name: "REST APIs", icon: "🔗" },
     ],

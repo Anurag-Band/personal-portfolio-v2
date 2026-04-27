@@ -9,25 +9,16 @@ export const workData: WorkExperience[] = [
     to: "Present",
     projects: [
       {
-        name: "Eddyowl – AI-Powered Handwritten Scripts Grading",
+        name: "AI-Driven Grading & SaaS Platforms",
         objective:
-          "Engineered a high-throughput AI evaluation engine for handwritten scripts processing 100+ pages/min with 95%+ grading accuracy",
+          "Building scalable AI-driven evaluation systems and multi-tenant SaaS platforms.",
         workDone: [
-          "Architected a RAG-based grading system with Vector Databases, cross-referencing CBSE-aligned context pools for high-precision evaluation",
-          "Built multi-agent workflow automating rubric generation and topic-wise diagnostic analytics with historical performance comparison",
-          "Developed bulk grading system with batch image/PDF uploads, significantly reducing manual evaluation time by 70%",
-          "Integrated OCR pipelines and LLM-based AI agents, engineering prompts that achieved 90%+ consistent evaluation across subjects",
-        ],
-      },
-      {
-        name: "Quicshop – Headless Storefront Orchestration System",
-        objective:
-          "Developed a complete headless storefront orchestration platform with modular theme engines and real-time rendering",
-        workDone: [
-          "Architected storefront designer functionality using Golang and GraphQL with modular templates, themes, and section-based customization",
-          "Built low-latency dynamic storefront renderer with Qwik framework, optimizing real-time data hydration by decoupling seller configs from presentation",
-          "Integrated Razorpay dynamic payment routing and custom Email Template Logic Engine for automated scenario-based communications",
-          "Implemented versioned publishing pipeline enabling seamless storefront updates without downtime",
+          "Designed and built a scalable AI-driven bulk grading system for handwritten exam papers, enabling high-volume automated evaluation.",
+          "Led end-to-end frontend development of a secure multi-tenant platform using React and Tailwind CSS, delivering user-focused features on tight timelines.",
+          "Engineered OCR and LLM evaluation pipelines by integrating AI agents and optimizing prompts to improve scoring consistency.",
+          "Deployed and managed services across AWS S3, Azure DevOps, and DigitalOcean using Docker and CI/CD pipelines for automated releases.",
+          "Contributed to Golang-based GraphQL APIs for a high-performance POS system, optimizing data flow and modular architecture.",
+          "Built a Shopify-style storefront website builder enabling businesses to create, customize, and manage online stores with configurable layouts.",
         ],
       },
     ],

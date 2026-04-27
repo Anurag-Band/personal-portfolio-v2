@@ -1,25 +1,31 @@
 # Anurag Band
 
 **Contact Information**
-- Phone: 9637072693
+- Phone: (+91) - 9637072693
 - Email: me.anuragband@gmail.com
-- Portfolio: [Link]
-- LinkedIn: [Profile]
-- GitHub: [Profile]
+- GitHub: [https://github.com/Anurag-Band](https://github.com/Anurag-Band)
+
+---
+
+## About
+Full-Stack Software Engineer focused on AI-driven web platforms, building scalable products at fast-moving startups. I specialise in React, Node.js, Golang and cloud-native architectures to turn ideas into production-ready SaaS.
+
+Recent work includes OCR + LLM grading systems for handwritten exams, GraphQL/Golang services for POS platforms, and secure file- and video-processing backends using AWS, FFmpeg and modern authentication.
 
 ---
 
 ## Experience
 
-### Software Developer
-**Quichub Innovations** | Bangalore, India - Onsite  
+### Full-Stack Software Engineer (AI-first)
+**Quichub Innovations** | Bangalore, India
 *September 2024 – Present*
 
-- Architected and delivered an AI-driven grading system processing 10K+ handwritten scripts/day with 95%+ accuracy, reducing manual evaluation time by 70%
-- Led end-to-end frontend development using React, Next.js, TypeScript, improving user onboarding and feature delivery speed by 30%
-- Integrated OCR pipelines and LLM-based AI agents, engineering prompts that achieved 90%+ consistent evaluation
-- Deployed on AWS, Azure DevOps, and DigitalOcean with Docker + CI/CD, enabling daily releases and improving system reliability
-- Collaborated directly with founders to define product roadmap and engineered scalable modules, driving 25% faster client adoption across pilot institutions
+- Designed and built a scalable AI-driven bulk grading system for handwritten exam papers, enabling high-volume automated evaluation and significantly reducing manual review effort.
+- Led end-to-end frontend development of a secure multi-tenant platform using React and Tailwind CSS, collaborating closely with founders to deliver user-focused features on tight timelines.
+- Engineered OCR and LLM evaluation pipelines by integrating AI agents and optimizing prompts to improve scoring consistency and reliability for handwritten responses.
+- Deployed and managed services across AWS S3, Azure DevOps, and DigitalOcean using Docker and CI/CD pipelines to ensure scalable infrastructure, automated releases, and rapid rollbacks.
+- Contributed to Golang-based GraphQL APIs for a high-performance POS system, optimizing data flow, maintaining modular microservice architecture, and supporting future scalability.
+- Built a Shopify-style storefront website builder enabling businesses to create, customize, and manage online stores at scale with configurable layouts and reusable components.
 
 ### Full Stack Developer Intern
 **Edilitics** | Mumbai, India - Remote  

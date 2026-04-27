@@ -44,11 +44,7 @@ export function Sidebar() {
               </Avatar>
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent opacity-30" />
             </div>
-            {/* Country Badge */}
-            <div className="absolute bottom-1 right-1 h-6 w-9 rounded-md bg-[#1a1a1a] border border-white/10 flex items-center justify-center text-[10px] shadow-lg">
-              🇮🇳
             </div>
-          </div>
 
           {/* Name & Title */}
           <div className="text-center space-y-2">
@@ -61,18 +57,14 @@ export function Sidebar() {
           </div>
 
           {/* Stats Section */}
-          <div className="grid grid-cols-3 w-full py-4 border-y border-border dark:border-white/5 gap-2">
-            <div className="text-center">
+          <div className="grid grid-cols-2 w-full py-4 border-y border-border dark:border-white/5 gap-2">
+            <div className="text-center border-r border-border dark:border-white/5">
               <p className="text-[9px] uppercase font-black tracking-widest text-muted-foreground/60">Exp</p>
               <p className="text-base font-bold text-foreground dark:text-card-foreground leading-tight">{profileData.experience.split('+')[0]}+</p>
             </div>
-            <div className="text-center border-x border-border dark:border-white/5">
-              <p className="text-[9px] uppercase font-black tracking-widest text-muted-foreground/60">Done</p>
-              <p className="text-base font-bold text-foreground dark:text-card-foreground leading-tight">{profileData.projectCount.split('+')[0]}+</p>
-            </div>
             <div className="text-center">
-              <p className="text-[9px] uppercase font-black tracking-widest text-muted-foreground/60">Clients</p>
-              <p className="text-base font-bold text-foreground dark:text-card-foreground leading-tight">10+</p>
+              <p className="text-[9px] uppercase font-black tracking-widest text-muted-foreground/60">Projects</p>
+              <p className="text-base font-bold text-foreground dark:text-card-foreground leading-tight">15+</p>
             </div>
           </div>
 
@@ -98,7 +90,7 @@ export function Sidebar() {
           
           {/* Action Links (Resume/Meeting) */}
           <div className="flex w-full gap-2 pt-2">
-            {displayLinks.filter(l => ["Resume", "Meeting"].includes(l.name)).map((link) => {
+            {displayLinks.filter(l => ["Resume"].includes(l.name)).map((link) => {
                const Icon = iconMap[link.name as keyof typeof iconMap];
                return (
                  <Button

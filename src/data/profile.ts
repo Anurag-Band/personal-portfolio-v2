@@ -4,10 +4,10 @@ export const profileData: Profile = {
   name: "Anurag Band",
   username: "@theanuuurag10",
   image: "/profile-image.jpg",
-  role: "Full-Stack Developer | AI Orchestration | Distributed Systems",
-  headline: "Building AI-Powered Systems at Scale",
+  role: "Full-Stack Software Engineer (AI-first)",
+  headline: "Turning Ideas into Production-ready SaaS with AI",
   intro:
-    "Full-Stack Software Developer with 1.5+ years of experience specializing in AI orchestration, high-throughput backend architecture, and distributed systems. Proven expertise in building RAG-driven evaluation engines, headless storefront platforms, and microservices using Golang, React, and Node.js. Skilled in managing 100GB+ data pipelines, Vector Databases, and multi-cloud deployments with a focus on system scalability and performance optimization.",
+    "Full-Stack Software Engineer focused on AI-driven web platforms, building scalable products at fast-moving startups. I specialise in React, Node.js, Golang and cloud-native architectures to turn ideas into production-ready SaaS. Recent work includes OCR + LLM grading systems for handwritten exams, GraphQL/Golang services for POS platforms, and secure file- and video-processing backends using AWS, FFmpeg and modern authentication.",
   location: "Bangalore, India",
   experience: "1.5+ years",
   projectCount: "30+ projects",

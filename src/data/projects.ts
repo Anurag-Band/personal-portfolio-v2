@@ -26,11 +26,11 @@ export const projectsData: PersonalProject[] = [
     thumbnail: "/projects/video-gizz.jpg",
     githubUrl: "https://github.com/Anurag-Band",
     objective:
-      "Engineered a high-performance transcoding pipeline using FFmpeg to generate HLS adaptive streams, optimizing playback across varying network conditions",
+      "Engineered a high-performance transcoding pipeline using FFmpeg to generate HLS adaptive streams, optimizing playback across varying network conditions.",
     workDone: [
-      "Built HLS streaming support with auto-generated resolutions (360p–1080p) for adaptive bitrate streaming",
-      "Integrated AWS S3 for scalable cloud storage and Google OAuth via Passport.js for secure identity management",
-      "Implemented fault-tolerant workflow for high-volume video uploads and processing",
+      "Built HLS streaming support with auto-generated resolutions (360p–1080p) for adaptive bitrate streaming.",
+      "Integrated AWS S3 for scalable cloud storage and Google OAuth via Passport.js for secure identity management.",
+      "Secure file and video-processing backend using AWS, FFmpeg and modern authentication.",
     ],
     techStack: [
       "Node.js",
