@@ -9,7 +9,7 @@ export const profileData: Profile = {
   intro:
     "Full-Stack Software Engineer focused on AI-driven web platforms, building scalable products at fast-moving startups. I specialise in React, Node.js, Golang and cloud-native architectures to turn ideas into production-ready SaaS. Recent work includes OCR + LLM grading systems for handwritten exams, GraphQL/Golang services for POS platforms, and secure file- and video-processing backends using AWS, FFmpeg and modern authentication.",
   location: "Bangalore, India",
-  experience: "1.5+ years",
+  experience: "2+ years",
   projectCount: "30+ projects",
   socialLinks: [
     { name: "Github", url: "https://github.com/Anurag-Band", icon: "Github" },
@@ -37,3 +37,4 @@ export const profileData: Profile = {
     { name: "Meeting", url: "https://cal.com/theanuuurag10", icon: "Calendar" },
   ],
 };
+

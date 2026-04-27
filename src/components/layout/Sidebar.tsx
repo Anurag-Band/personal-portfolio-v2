@@ -64,7 +64,7 @@ export function Sidebar() {
             </div>
             <div className="text-center">
               <p className="text-[9px] uppercase font-black tracking-widest text-muted-foreground/60">Projects</p>
-              <p className="text-base font-bold text-foreground dark:text-card-foreground leading-tight">15+</p>
+              <p className="text-base font-bold text-foreground dark:text-card-foreground leading-tight">{profileData.projectCount}</p>
             </div>
           </div>
 
